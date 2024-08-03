@@ -1,0 +1,126 @@
+/* navbar-dark */
+.navbar-dark {
+    width: 1440px;
+    height: 46px;
+    background-color: rgb(19, 0, 70);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1 {
+    color: aliceblue;
+    margin-left: 2%;
+}
+
+.p2 {
+    color: aliceblue;
+    margin-left: 2%;
+}
+
+.p3 {
+    color: aliceblue;
+    margin-left: 16%;
+}
+
+.p4 {
+    color: aliceblue;
+    margin-left: 20%;
+    margin-bottom: 10%;
+
+}
+
+
+.div1 img {
+    margin-left: 7px;
+    margin-top: 18px;
+}
+
+/* navbar-light */
+
+.navbar-light {
+    width: 1440px;
+    height: 58px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+}
+
+.h1-nav {
+    margin-left: 2%;
+}
+
+.ul-nav {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.ul-nav li {
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.ul-nav li:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.p5 {
+    color: rgb(69, 162, 255);
+    margin-top: 25px;
+    margin-left: 40%;
+}
+
+.div2 {
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.div2 img {
+    padding-left: 20px;
+}
+
+/* banner */
+.div3 {
+    position: relative;
+    background: url('photo/photo1.jpg');
+    width: 1440px;
+    height: 716px;
+}
+
+
+.div3 h3 {
+    z-index: 2;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: white;
+
+}
+
+.div3 h1 {
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 38%;
+    font-size: 50px;
+}
+
+.div3 p {
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 55%;
+    font-size: 20px;
+}
+
+.div3 button {
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 70%;
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: green;
+    border: none;
+}
